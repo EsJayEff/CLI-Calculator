@@ -135,3 +135,18 @@ tsc && node index.js
 
 one line compile and run the project."# CLI-Calculator" 
 "# CLI-Calculator" 
+
+to upload the file as a package to npm
+
+npm login
+provide username and password to login
+once logged in 
+
+type command
+
+npm publish --access=public ( if the naming convention is provided in my case its(@esjayeff/calculator) if the calculator name already been taken by multiple users then this is the way to do the job.
+
+else 
+
+npm publish (is enough to do the job)
+
