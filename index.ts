@@ -1,11 +1,9 @@
 #!usr/bin/env node
 
-import inquirer from "inquirer";
 import chalk from "chalk";
-import chalkAnimation, { rainbow } from "chalk-animation";
-import { listenerCount } from "process";
-import Choices from "inquirer/lib/objects/choices.js";
-import { log } from "console";
+import chalkAnimation from "chalk-animation";
+import inquirer from "inquirer";
+
 
 const sleep = () => {
   return new Promise((res) => {
