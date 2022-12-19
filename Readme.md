@@ -78,7 +78,11 @@ please note that the target and module are uncommented
 from "target": "es2016" to  "target": "ES2022"  change number 1    
 from "module": "commonjs" to "module": "NodeNext" change number 2
 
+<<<<<<< HEAD
 please note that the moduleresolution is commented first uncomment the 
+=======
+please note that the moduleResolution is commented first uncomment the 
+>>>>>>> 8a8f48333da35daa38fb9a0aff280b6fa8d0aa1c
 
 "moduleResolution": "node"
 
